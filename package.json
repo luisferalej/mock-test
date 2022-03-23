@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/luisferalej/mock-test#readme",
   "dependencies": {
-    "mock-json-response": "^1.0.9"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "rimraff": "0.0.1-security",
+    "winston": "^3.3.3"
   }
 }

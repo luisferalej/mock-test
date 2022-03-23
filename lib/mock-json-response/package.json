@@ -1,0 +1,46 @@
+{
+  "name": "mock-json-response",
+  "version": "1.0.9",
+  "description": "Configurable REST API response provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon --exec node",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhilgangula/json-mock-server.git"
+  },
+  "keywords": [
+    "RESTAPI",
+    "MOCK",
+    "JSON",
+    "Response",
+    "Testing"
+  ],
+  "author": "Akhil Reddy Gangula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhilgangula/json-mock-server/issues"
+  },
+  "homepage": "https://github.com/akhilgangula/json-mock-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "rimraff": "0.0.1-security",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+        "src/**/*.js"
+    ],
+    "testPathIgnorePatterns" : [
+      "node_modules"
+    ]
+  }
+}
